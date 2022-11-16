@@ -1,6 +1,6 @@
 <?php
 
-namespace yzh52521\middleware\throttle;
+namespace yuanzh\middleware\throttle;
 
 use Psr\SimpleCache\CacheInterface;
 

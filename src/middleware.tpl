@@ -21,6 +21,6 @@ class Throttle implements MiddlewareInterface
         if ( $route = $request->route ) {
             $params = $route->param();
          }
-        return (new \yzh52521\middleware\Throttle())->handle($request, $next, $params??[]);
+        return (new \yuanzh\middleware\Throttle())->handle($request, $next, $params??[]);
     }
 }

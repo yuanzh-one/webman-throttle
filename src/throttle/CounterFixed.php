@@ -1,12 +1,12 @@
 <?php
 
-namespace yzh52521\middleware\throttle;
+namespace yuanzh\middleware\throttle;
 
 
 /**
  * 计数器固定窗口算法
  * Class CounterFixed
- * @package yzh52521\middleware\throttle
+ * @package yuanzh\middleware\throttle
  */
 class CounterFixed extends ThrottleAbstract
 {

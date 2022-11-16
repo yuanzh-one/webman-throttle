@@ -1,12 +1,12 @@
 <?php
 
-namespace yzh52521\middleware\throttle;
+namespace yuanzh\middleware\throttle;
 
 
 /**
  * 漏桶算法
  * Class LeakyBucket
- * @package yzh52521\middleware\throttle
+ * @package yuanzh\middleware\throttle
  */
 class LeakyBucket extends ThrottleAbstract
 {

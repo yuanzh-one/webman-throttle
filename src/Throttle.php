@@ -2,16 +2,16 @@
 /**
  *
  * 访问频率限制中间件
- * @link https://github.com/yzh52521/webman-throttle
+ * @link https://github.com/yuanzh-one/webman-throttle
  * @license http://www.apache.org/licenses/LICENSE-2.0
  * @copyright The PHP - Tools
  */
 declare(strict_types=1);
 
-namespace yzh52521\middleware;
+namespace yuanzh\middleware;
 
 use Psr\SimpleCache\CacheInterface;
-use yzh52521\middleware\throttle\{CounterFixed, ThrottleAbstract};
+use yuanzh\middleware\throttle\{CounterFixed, ThrottleAbstract};
 use Webman\Config;
 use support\{Container, Cache};
 use Webman\Http\{Request,Response};
@@ -78,7 +78,7 @@ class Throttle
      */
     public function __construct(array $params = [])
     {
-        $this->config = array_merge(static::$default_config, Config::get('plugin.yzh52521.throttle.app',[]), $params);
+        $this->config = array_merge(static::$default_config, Config::get('plugin.yuanzh.throttle.app',[]), $params);
         $this->cache  = Container::make($this->config['cache_drive'], []);
     }
 

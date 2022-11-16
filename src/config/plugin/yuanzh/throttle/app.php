@@ -2,11 +2,11 @@
 // +----------------------------------------------------------------------
 // | 节流设置
 // +----------------------------------------------------------------------
-use yzh52521\middleware\Throttle;
-use yzh52521\middleware\throttle\CounterFixed;
-// use yzh52521\middleware\throttle\CounterSlider;
-// use yzh52521\middleware\throttle\TokenBucket;
-// use yzh52521\middleware\throttle\LeakyBucket;
+use yuanzh\middleware\Throttle;
+use yuanzh\middleware\throttle\CounterFixed;
+// use yuanzh\middleware\throttle\CounterSlider;
+// use yuanzh\middleware\throttle\TokenBucket;
+// use yuanzh\middleware\throttle\LeakyBucket;
 use Webman\Http\{Request, Response};
 
 return [

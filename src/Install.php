@@ -1,6 +1,6 @@
 <?php
 
-namespace yzh52521\middleware;
+namespace yuanzh\middleware;
 
 class Install
 {
@@ -10,7 +10,7 @@ class Install
      * @var array
      */
     protected static $pathRelation = array(
-        'config/plugin/yzh52521/throttle' => 'config/plugin/yzh52521/throttle',
+        'config/plugin/yuanzh/throttle' => 'config/plugin/yuanzh/throttle',
     );
 
     /**

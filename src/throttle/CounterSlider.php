@@ -1,12 +1,12 @@
 <?php
 
-namespace yzh52521\middleware\throttle;
+namespace yuanzh\middleware\throttle;
 
 
 /**
  * 计数器滑动窗口算法
  * Class CouterSlider
- * @package yzh52521\middleware\throttle
+ * @package yuanzh\middleware\throttle
  */
 class CounterSlider extends ThrottleAbstract
 {

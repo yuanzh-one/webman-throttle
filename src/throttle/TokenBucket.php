@@ -1,12 +1,12 @@
 <?php
 
-namespace yzh52521\middleware\throttle;
+namespace yuanzh\middleware\throttle;
 
 
 /**
  * 令牌桶算法
  * Class TokenBucket
- * @package yzh52521\middleware\throttle
+ * @package yuanzh\middleware\throttle
  */
 class TokenBucket extends ThrottleAbstract
 {
